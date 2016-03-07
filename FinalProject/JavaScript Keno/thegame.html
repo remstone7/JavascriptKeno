@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Keno</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">JavaScript Keno</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div id="theGame">
+        <div class="row">
+          <div class="col-md-1 col-sm-1 first-column">
+
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">1</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">9</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">17</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">25</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">33</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">41</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">49</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">57</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">65</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">73</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">2</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">10</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">18</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">26</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">34</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">42</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">50</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">58</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">66</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">74</div>
+            </div>
+          </div>
+           <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">3</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">11</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">19</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">27</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">35</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">43</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">51</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">59</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">67</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">75</div>
+
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">4</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">12</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">20</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">28</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">36</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">44</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">52</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">60</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">68</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">76</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">5</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">13</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">21</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">29</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">37</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">45</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">53</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">61</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">69</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">77</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">6</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">14</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">22</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">30</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">38</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">46</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">54</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">62</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">70</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">78</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">7</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">15</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">23</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">31</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">39</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">47</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">55</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">63</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">71</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">79</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">8</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">16</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">24</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">32</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">40</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">48</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">56</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">64</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">72</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column">80</div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+     <!-- <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number"></div> -->
+        <!-- div class="row">
+          <div class="col-md-1 col-sm-1 first-column">
+
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="one">1</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="nine">9</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="seventeen">17</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="twentyfive">25</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="thirtythree">33</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="fortyone">41</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="fortynine">49</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="fiftyseven">57</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="sixtyfive">65</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number" id="seventythree">73</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">2</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">10</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">18</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">26</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">34</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">42</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">50</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">58</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">66</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">74</div>
+            </div>
+          </div>
+           <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">3</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">11</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">19</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">27</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">35</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">43</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">51</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">59</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">67</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">75</div>
+
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">4</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">12</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">20</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">28</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">36</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">44</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">52</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">60</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">68</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">76</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">5</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">13</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">21</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">29</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">37</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">45</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">53</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">61</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">69</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">77</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">6</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">14</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">22</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">30</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">38</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">46</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">54</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">62</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">70</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">78</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">7</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">15</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">23</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">31</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">39</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">47</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">55</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">63</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">71</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">79</div>
+            </div>
+          </div>
+          <div class="col-md-1 col-sm-1 first-column">
+            <div class="row">
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">8</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">16</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">24</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">32</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">40</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">48</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">56</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">64</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">72</div>
+              <div class="col-md-1 col-sm-1 col-xs-1 keno-game-style first-column keno-number">80</div>
+            </div>
+          </div> -->
+      <!-- </div> -->
+      
+    
+    </section>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

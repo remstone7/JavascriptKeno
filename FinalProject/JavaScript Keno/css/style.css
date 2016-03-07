@@ -1,0 +1,135 @@
+body{
+  padding-top: 20px;
+  background: url(../img/crossword.png);
+}
+/*Play keno page*/
+.keno-heading{
+	text-align: center;
+	border-radius: 5px 5px 0 0;
+}
+.keno-heading h1{
+
+}
+form{
+}
+ol{
+	border-radius: 0  0 5px 5px;
+	height: 228px;
+}
+
+
+#theGame{
+	display: none;
+}
+.number-input{
+	text-align: center;
+	padding: 0;
+}
+.lets-play{
+	margin-top: 10px;
+}
+.kenoNumbersInput {
+	width: 20%;
+}
+
+.mainButton{
+	text-align: center;
+}
+
+ol li {
+	color: black;
+	border: none;
+}
+
+input{
+	color: black;
+	border: 1px solid rgba(30,30,30,);
+	border-radius: 5px;
+}
+#userSection{
+	height: 70px;
+}
+
+span{
+	border: 1px solid black;
+	margin: 0 10px 20px;
+	padding: 15px 20px;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+}
+.correct{
+	background: green;
+	color: white;
+	width: 40px;
+}
+
+#userRight{
+	height: 30px;
+	margin: 20px 0 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.userNums{
+	margin: 0 auto;	
+	text-align: center;
+}
+
+.userinputstyles{
+	border: 1px solid black;
+	background: #e8e8e8;
+	font-size: 1.3em;
+	border-radius: 5px;
+	text-align: center;
+	height: 30px;
+	width: 20%;
+}
+
+/*game countdown*/
+.game-countdown {
+	text-align: center;
+}
+.game-countdown h3 {
+	margin: 70px;
+}
+/*Number selection*/
+
+.selected{
+	background: blue;
+}
+
+
+/*keno game style*/
+
+.keno-game-style{ 
+	border: 1px solid black;
+	text-align: center;
+	height: 30px;
+	width: 60px;
+	float: left;	
+}
+.first-column{
+	margin: 15px;
+}
+/*hidden div*/
+.countDown{
+	display: none;
+}
+
+.computerScore{
+	background: red;
+	color: yellow;
+}
+
+/*numbers right page*/
+#numbers-right{
+	display: none;
+	margin: 20px auto;
+	background: green;
+	border: 1px solid #000;
+	border-radius: 5px;
+	height: 300px;
+	width: 100%;
+}
+

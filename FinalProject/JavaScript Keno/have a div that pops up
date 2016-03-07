@@ -1,0 +1,82 @@
+
+on click of lets play
+	store the inputs of each number in variables
+have a div that pops up 
+	and hide the rest of the content
+
+once the div is shown
+start down the countdown timer
+
+
+when that timer highlights lets play
+bring to the game page
+
+have function start game automatically run when the timer is done
+	when the game starts
+	randomly pick 1 number at a time up to 20
+		set speed of pick interval
+		add the class to the number to decorate it
+		store each number in a variable
+
+	once 20 numbers have to chosen class
+		go to the next page
+
+	display the variables the user picked on the left side 1 through 5
+	display the variables the computer picked on the right side 1 through 5
+
+	then compare if they are the same
+
+	after deciding the correct number right
+
+	go to the next page and say congrats you 
+
+
+
+
+array.push jquery API
+
+
+
+
+
+
+
+
+
+
+
+
+store values in the input.
+
+have the values in the array add class slected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
